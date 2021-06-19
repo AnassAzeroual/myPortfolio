@@ -1,3 +1,37 @@
-<p>
-  aboutme works!
-</p>
+<div id="aboutme">
+  <div class="container">
+    <div class="s1">
+      <div class="img">
+        <img src="./../../../assets/img/anassazeroual.png" alt="" srcset="">
+      </div>
+      <div class="name">
+        Anass Azeroual
+      </div>
+      <div class="hr"></div>
+      <div class="jobtitle">
+        FullStack Developer
+      </div>
+      <div class="social">
+        <a href=""><img src="../../../assets/img/github.png" alt=""></a>
+        <a href=""><img src="../../../assets/img/whatsapp.png" alt=""></a>
+        <a href=""><img src="../../../assets/img/linkedin.png" alt=""></a>
+        <a href=""><img src="../../../assets/img/skype.png" alt=""></a>
+        <a href=""><img src="../../../assets/img/facebook.png" alt=""></a>
+      </div>
+    </div>
+    <div class="s2">
+      <div class="say">Hello</div>
+      <div class="secondsay">Here's who I am & what I do</div>
+      <div class="navig">
+        <a href="#">resume</a><a href="#">projects</a>
+      </div>
+      <div class="desc">
+        <div>
+          <p *ngFor="let item of data" class="topic">
+            {{item}}</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

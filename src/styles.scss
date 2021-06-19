@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --gradient-color: linear-gradient(
+    to right top,
+    #f2f0f2,
+    #e3dcf0,
+    #c4cdf3,
+    #92c2f4,
+    #3cb9ec
+  );
+  --gradient-color-rever: linear-gradient(
+    to left top,
+    #f2f0f2,
+    #e3dcf0,
+    #c4cdf3,
+    #92c2f4,
+    #3cb9ec
+  );
+}
+
+body {
+  background-image: var(--gradient-color);
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+}
+
+.ptr {
+  cursor: pointer;
+}
